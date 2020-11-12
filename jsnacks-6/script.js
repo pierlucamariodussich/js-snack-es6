@@ -41,7 +41,9 @@ arrayCopy.forEach((element) => {
 });
 
 
-// che contiene una lettera casuale
+
+
+// funzione che contiene una lettera casuale
 function randomLetter() {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz'
   var letter = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
