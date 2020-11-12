@@ -28,7 +28,9 @@ for (let i = fromNum; i < toNum; i++) {
 }
 
 // Stampare
+console.log(newArray)
 
-newArray.forEach(element) => {
-  $('#result-5').append( element );
-}
+newArray.forEach((element) => {
+  console.log(element)
+  $('#result-5').append(`${element} <br>` );
+});
