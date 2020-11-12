@@ -13,7 +13,7 @@ for (let i = 0; i < 3 ;i++){
   let scoreRand = Math.floor((Math.random()*6)+0); //valori presi da 4B
   let foulsRand = Math.floor((Math.random()*6)+0); //valori presi da 4B
 
-  let club={
+  const club={
     'name': prompt('Inserisci il nome della squadra'),
     'score': scoreRand, // es 4A : 'score':  0,
     'fouls': foulsRand, // es 4A : 'fouls':  0,

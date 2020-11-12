@@ -28,5 +28,20 @@ for(let i=0; i<bike.length; i++){
    }
  }
 
-  console.log(lighterWeight)
- $('#result-2').append( `La bici più leggera è la ${lighterWeight.name} che pesa ${lighterWeight.weight} kg.` );
+ //  console.log(lighterWeight)
+ // $('#result-2').append( `La bici più leggera è la ${lighterWeight.name} che pesa ${lighterWeight.weight} kg.` );
+
+
+ // 2B
+ 
+ /*
+ Creare un array di oggetti:
+ Ogni oggetto descriverà una bici da corsa con le
+ seguenti proprietà: nome e peso.
+ Stampare a schermo la bici con peso minore
+ utilizzando destructuring e template literal
+ */
+ const {weight} = lighterWeight
+ const {name} = lighterWeight
+ console.log(name)
+ $('#result-2').append( `La bici più leggera è la ${name} che pesa ${weight} kg.` );
